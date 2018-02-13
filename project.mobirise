@@ -744,7 +744,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/imagem-com-logo-1100x731.jpg",
+                "image": "@PROJECT_PATH@/assets/images/nova-imagem-1100x731.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
