@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Lanchonete Capricho-clone",
-    "currentPage": "page5.html",
+    "currentPage": "page2.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 124,
     "versionPublish": "4.6.3",
@@ -2357,7 +2357,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/po-de-quijo-1200x750-800x500.jpg",
                 "alt": "PÃO DE QUEIJO",
                 "customStyle1": "display-7",
-                "caption": "PÃO DE QUIJO<br>R$ 2,00",
+                "caption": "PÃO DE QUEIJO<br>R$ 2,00",
                 "active": false
               },
               {
@@ -2969,7 +2969,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/soda-limonada-1200x1000-800x665.jpg",
                 "alt": "SODA",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "SOLA LIMONADA<br>2,60",
                 "active": false
               },
               {
@@ -3508,8 +3508,8 @@
                 "image": "@PROJECT_PATH@/assets/images/suco-de-caj-1200x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-caj-1200x1000-613x511.jpg",
                 "alt": "SUCO DE CAJÚ",
-                "customStyle1": "display-7",
-                "caption": "SUCO DE CAJO<br>R$ 4,30",
+                "customStyle1": "display-2",
+                "caption": "SUCO DE CAJU<br>R$ 4,30",
                 "active": false
               },
               {
@@ -3521,7 +3521,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-goiaba-1200x1000-767x639.jpg",
                 "alt": "SUCO DE MELANCIA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MELANCIA<br>R$ 4,10",
+                "caption": "SUCO DE ACEROLA<br>R$ 4,10",
                 "active": false
               },
               {
@@ -3565,12 +3565,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/suco-de-goiaba-1200x1000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/suco-de-goiaba-1200x1000-767x639.jpg",
-                "alt": "SUCO DE MELANCIA",
+                "image": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x1000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x1000-800x666.jpg",
+                "alt": "SUCO DE HORTELÃ",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MELANCIA<br>R$ 4,10",
-                "active": false
+                "caption": "SUCO DE HORTELÃ<br>R$ 4,10",
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -3594,7 +3594,7 @@
                 "alt": "SUCO DE UVA",
                 "customStyle1": "display-7",
                 "caption": "SUCO DE UVA<br>R$ 4,10",
-                "active": true
+                "active": false
               }
             ]
           }
