@@ -730,7 +730,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/resataurante-capa-cpia-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/resataurante-capa-cpia-7.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
@@ -747,7 +747,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/restaurante-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/restaurante-2.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
