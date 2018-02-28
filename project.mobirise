@@ -790,7 +790,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-warning-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-warning\" href=\"page12.html#gallery1-6k\">HAMBURGUER</a> <a class=\"btn btn-md btn-warning\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-warning\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-warning\" href=\"page10.html#gallery1-6g\">DIVERSOS</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-warning-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-warning\" href=\"page12.html#gallery1-6k\">HAMBURGUERES</a> <a class=\"btn btn-md btn-warning\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-warning\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-warning\" href=\"page10.html#gallery1-6g\">DIVERSOS</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qJhuOSt8eJ",
           "_anchor": "header2-v",
           "_protectedParams": [],
@@ -2392,11 +2392,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/abrobrinha-recheada-com-linguia-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/abrobrinha-recheada-com-linguia-1-799x499.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hamburguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hamburguer-799x500.jpg",
                 "alt": "Abrobrinha recheada com linguiça",
                 "customStyle1": "display-7",
-                "caption": "ABOBRINHA RECHEADA COM LINGUIÇA<br>R$ 17,40",
+                "caption": "HAMBURGER<br>Pão, hambúrguer, alface, tomate, milho e batata palha<br><br>R$ 8,40",
                 "active": false
               },
               {
@@ -2404,23 +2404,23 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/antepasto-de-beringela.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/antepasto-de-beringela-799x497.jpg",
+                "image": "@PROJECT_PATH@/assets/images/x-burguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-burguer-799x500.jpg",
                 "alt": "Antepasto de beringela",
                 "customStyle1": "display-7",
-                "caption": "ANTEPASTO DE BERINGELA<br>R$ 9,60",
-                "active": false
+                "caption": "X-BURGUER<br>Pão, hamburguer, queijo, alface, tomate, milho e batata palha<br><br>R$ 8,60",
+                "active": true
               },
               {
                 "tags": "Creative",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/aspargos-com-presunto-de-parma.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/aspargos-com-presunto-de-parma-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/x-egg-burger.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-egg-burger-799x500.jpg",
                 "alt": "Aspargos com presunto de parma",
                 "customStyle1": "display-7",
-                "caption": "ASPARGOS COM PRESUNTO DE PARMA<br>RS 11,60",
+                "caption": "X-EGG-BURGUER<br>Pão, hambúrguer, ovo, 2 presuntos, queijo, alface, tomate, milho e batata palha<br><br>RS 11,60",
                 "active": false
               },
               {
@@ -2428,11 +2428,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/batata-assada-crocante.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/batata-assada-crocante-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/x-bacon.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-bacon-799x500.jpg",
                 "alt": "Batata assada crocante",
                 "customStyle1": "display-7",
-                "caption": "BATATA ASSADA&nbsp;<br>CROCANTE<br>R$ 15,30",
+                "caption": "X-BACON<br>Pão, hambúrguer, presunto, queijo, bacon, alface, tomate, milho e batata palha<br><br>R$ 11,30",
                 "active": false
               },
               {
@@ -2440,11 +2440,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/batata-hasselback.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/batata-hasselback-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/x-egg-burger.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-egg-burger-799x500.jpg",
                 "alt": "Batata Hasselback",
                 "customStyle1": "display-7",
-                "caption": "BATATA HASSELBACK<br>R$ 17,40",
+                "caption": "X-EGG-BACON<br>Pão, hambúrguer, ovo, bacon, presunto, queijo, alface, tomate, milho e batata palha<br><br>R$ 13,70",
                 "active": false
               },
               {
@@ -2452,11 +2452,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/bolinho-de-arraz-com-parmezo.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bolinho-de-arraz-com-parmezo-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/americano.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/americano-799x500.jpg",
                 "alt": "Bolinho de arroz com parmezão",
                 "customStyle1": "display-7",
-                "caption": "BOLINHO DE ARROZ COM PARMEZÃO<br>R$ 9,50",
+                "caption": "AMERICANO<br>Pão, ovo, bacon, presunto, queijo, alface, tomate, milho e batata palha<br><br>R$ 12,50",
                 "active": false
               },
               {
@@ -2464,11 +2464,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/entrecte.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/entrecte-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/x-tudo.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-tudo-799x500.jpg",
                 "alt": "Entrecotê",
                 "customStyle1": "display-7",
-                "caption": "ENTRECOTÊ<br>R$ 14,30",
+                "caption": "X-TUDO<br>Pão, hambúrguer de boi, hambúrguer de frango, ovo, bacon, presunto, queijo, Alface, tomate, milho e batata palha<br><br>R$ 14,30",
                 "active": false
               },
               {
@@ -2476,12 +2476,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/la-trave-bistr.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/la-trave-bistr-799x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/framburguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/framburguer-799x500.jpg",
                 "alt": "La trave bistrô",
                 "customStyle1": "display-7",
-                "caption": "LA TRAVE BISTRÔ<br>R$ 19,60",
-                "active": true
+                "caption": "FRAMBURGUER<br>Pão, hambúrguer de frango, ovo, bacon, queijo, alface, tomate, milho e batata palha<br><br>R$ 12,60",
+                "active": false
               }
             ]
           }
