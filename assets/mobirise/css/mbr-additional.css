@@ -2586,67 +2586,89 @@ body {
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-qKdCxLS4xR {
+.cid-qLofbwC1p5 {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/acai-na-tigela.jpg");
+}
+.cid-qLofbwC1p5 .card-img {
+  background-color: #fff;
+}
+.cid-qLofbwC1p5 .card-box {
   background-color: #ffffff;
+  padding: 2rem;
 }
-.cid-qKdCxLS4xR .mbr-slider .carousel-control {
-  background: #1b1b1b;
+.cid-qLofbwC1p5 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
 }
-.cid-qKdCxLS4xR .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
+.cid-qLofbwC1p5 p {
+  text-align: left;
 }
-.cid-qKdCxLS4xR .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
+.cid-qLofbwC1p5 .mbr-text {
+  color: #4f4943;
 }
-.cid-qKdCxLS4xR .mbr-slider .modal-body .close {
-  background: #1b1b1b;
-}
-.cid-qKdCxLS4xR .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+.cid-qLofbwC1p5 .card-wrapper {
   height: 100%;
-  background: #554346;
-  background: linear-gradient(to left, #554346, #45505b) !important;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-qKdCxLS4xR .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
+.cid-qLofbwC1p5 .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
-.cid-qKdCxLS4xR .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+@media (min-width: 992px) {
+  .cid-qLofbwC1p5 .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
 }
-.cid-qKdCxLS4xR .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
+.cid-qLofbwC1p5 .mbr-text B {
+  color: #4f4943;
 }
-.cid-qKdCxLS4xR .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
+.cid-qLofeYPF2W {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/acai-na-tigela.jpg");
+}
+.cid-qLofeYPF2W .card-img {
+  background-color: #fff;
+}
+.cid-qLofeYPF2W .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-qLofeYPF2W h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qLofeYPF2W p {
+  text-align: left;
+}
+.cid-qLofeYPF2W .mbr-text {
+  color: #4f4943;
+}
+.cid-qLofeYPF2W .card-wrapper {
   height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #554346 !important;
-  background: linear-gradient(to left, #554346, #45505b) !important;
-  opacity: 0.7;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-qLofeYPF2W .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-qLofeYPF2W .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
+}
+.cid-qLofeYPF2W .mbr-text B {
+  color: #4f4943;
 }
 .cid-qKXKiUhwa2 {
   padding-top: 0px;
