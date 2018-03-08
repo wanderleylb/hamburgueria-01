@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Hamburgueria",
-    "currentPage": "page12.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 306,
+    "uniqCompNum": 314,
     "versionPublish": "4.6.5",
     "theme": {
       "name": "mobirise4",
@@ -773,7 +773,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "cardapio",
-        "order": 15
+        "order": 11
       },
       "components": [
         {
@@ -790,7 +790,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-warning-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-warning\" href=\"page12.html#gallery1-6k\">HAMBURGUERES</a> <a class=\"btn btn-md btn-warning\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-warning\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-warning\" href=\"page10.html#gallery1-6g\">DIVERSOS</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-warning-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-warning\" href=\"page12.html#gallery1-6k\">HAMBURGUERES</a> <a class=\"btn btn-md btn-warning\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-warning\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-warning\" href=\"page10.html#gallery1-6g\">DIVERSOS</a> <a class=\"btn btn-md btn-warning\" href=\"page11.html#gallery1-8o\">PROMOÇÕES</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qJhuOSt8eJ",
           "_anchor": "header2-v",
           "_protectedParams": [],
@@ -804,7 +804,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "doces",
-        "order": 14
+        "order": 10
       },
       "components": [
         {
@@ -919,7 +919,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/chocolate-1-1200x750-799x500.jpg",
                 "alt": "CHOCOLATE BARRA",
                 "customStyle1": "display-7",
-                "caption": "CHOCOLATE BARRA<br>R4 5,70",
+                "caption": "CHOCOLATE BARRA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4 5,70",
                 "active": false
               },
               {
@@ -931,7 +931,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/doce-de-leite-1200x750-799x500.jpg",
                 "alt": "DOCE DE LEITE",
                 "customStyle1": "display-7",
-                "caption": "DOCE DE LEITE&nbsp;<br>R$ 4,30",
+                "caption": "DOCE DE LEITE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,30",
                 "active": false
               },
               {
@@ -943,7 +943,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/quindim-2-1200x750-799x500.jpg",
                 "alt": "QUINDIM PEDAÇO",
                 "customStyle1": "display-7",
-                "caption": "QUINDIM PEDAÇO<br>R$ 6,40",
+                "caption": "QUINDIM PEDAÇO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 6,40",
                 "active": false
               },
               {
@@ -955,7 +955,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pudim-1-1200x750-800x500.jpg",
                 "alt": "PUDIM PEDAÇO",
                 "customStyle1": "display-7",
-                "caption": "PUDIM PEDAÇO<br>R$ 6,40",
+                "caption": "PUDIM PEDAÇO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 6,40",
                 "active": false
               },
               {
@@ -967,7 +967,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/trufas-1-1200x750-799x500.jpg",
                 "alt": "TRUFAS",
                 "customStyle1": "display-7",
-                "caption": "TRUFAS<br>R$ 3,40<br><br>",
+                "caption": "TRUFAS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,40<br><br>",
                 "active": true
               },
               {
@@ -979,7 +979,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/rocambole-1-1200x750-799x499.jpg",
                 "alt": "ROCAMBOLE",
                 "customStyle1": "display-7",
-                "caption": "ROCAMBOLE<br>R$ 4,80",
+                "caption": "ROCAMBOLE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,80",
                 "active": false
               },
               {
@@ -991,7 +991,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/sorvetes-1-1200x750-799x500.jpg",
                 "alt": "SORVETE",
                 "customStyle1": "display-7",
-                "caption": "SORVETE<br>R$ 3,10",
+                "caption": "SORVETE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,10",
                 "active": false
               },
               {
@@ -1003,7 +1003,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mousse-1-1200x750-799x500.jpg",
                 "alt": "MOUSE",
                 "customStyle1": "display-7",
-                "caption": "MOUSE<br>R$ 3,80<br><br>",
+                "caption": "MOUSE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,80<br><br>",
                 "active": false
               }
             ]
@@ -1031,7 +1031,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "salgados",
-        "order": 13
+        "order": 9
       },
       "components": [
         {
@@ -1141,12 +1141,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/hamburger-1200x750.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/hamburger-1200x750-800x500.jpg",
-                "alt": "HAMBURGUER",
+                "image": "@PROJECT_PATH@/assets/images/pastel.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-799x500.jpg",
+                "alt": "Pastel",
                 "customStyle1": "display-7",
-                "caption": "HAMBURGUER&nbsp;<br>R$ 8,50",
-                "active": false
+                "caption": "PASTEL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,50",
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -1157,7 +1157,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coxinha-1200x750-800x500.jpg",
                 "alt": "COXINHA",
                 "customStyle1": "display-7",
-                "caption": "COXINHA<br>3,30 &nbsp;<br>",
+                "caption": "COXINHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,30 &nbsp;<br>",
                 "active": false
               },
               {
@@ -1169,7 +1169,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-1200x750-800x500.jpg",
                 "alt": "ENROLADO DE SALSICHA",
                 "customStyle1": "display-7",
-                "caption": "ENROLADO DE SALSILHA<br>R$ 4,10",
+                "caption": "ENROLADO DE SALSILHA &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1181,7 +1181,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/esfiha-1200x750-800x500.jpg",
                 "alt": "ESFIHA",
                 "customStyle1": "display-7",
-                "caption": "ESPIHA<br>R$ 3,70",
+                "caption": "ESPIHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,70",
                 "active": false
               },
               {
@@ -1193,7 +1193,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/po-de-quijo-1200x750-800x500.jpg",
                 "alt": "PÃO DE QUEIJO",
                 "customStyle1": "display-7",
-                "caption": "PÃO DE QUEIJO<br>R$ 2,00",
+                "caption": "PÃO DE QUEIJO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,00",
                 "active": false
               },
               {
@@ -1205,7 +1205,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pizza-1200x750-800x500.jpg",
                 "alt": "PEDAÇO DE PIZZA",
                 "customStyle1": "display-7",
-                "caption": "PIZZA PEDAÇO<br>R$ 4,40",
+                "caption": "PIZZA PEDAÇO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,40",
                 "active": false
               },
               {
@@ -1217,7 +1217,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/quibe-1200x750-800x500.jpg",
                 "alt": "QUIBE",
                 "customStyle1": "display-7",
-                "caption": "QUIBE<br>R$ 3,30",
+                "caption": "QUIBE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,30",
                 "active": false
               },
               {
@@ -1229,8 +1229,8 @@
                 "thumb": "@PROJECT_PATH@/assets/images/empada-1200x750-800x500.jpg",
                 "alt": "EMPADA",
                 "customStyle1": "display-7",
-                "caption": "EMPADA<br>R$ 3,30",
-                "active": true
+                "caption": "EMPADA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,30",
+                "active": false
               }
             ]
           }
@@ -1257,7 +1257,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "sucos",
-        "order": 11
+        "order": 7
       },
       "components": [
         {
@@ -1371,7 +1371,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-caj-1200x1000-800x666.jpg",
                 "alt": "SUCO DE CAJÚ",
                 "customStyle1": "display-2",
-                "caption": "SUCO DE CAJU<br>R$ 4,30",
+                "caption": "SUCO DE CAJU &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,30",
                 "active": true
               },
               {
@@ -1383,7 +1383,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-goiaba-1200x1000-767x639.jpg",
                 "alt": "SUCO DE MELANCIA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE ACEROLA<br>R$ 4,10",
+                "caption": "SUCO DE ACEROLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1395,7 +1395,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-melancia-1200x1000-800x665.jpg",
                 "alt": "SUCO DE MELANCIA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MELANCIA<br>R$ 3,80",
+                "caption": "SUCO DE MELANCIA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,80",
                 "active": false
               },
               {
@@ -1407,7 +1407,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-laranja-1200x1000-800x665.jpg",
                 "alt": "SUCO DE LARANJA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MARACUJÁ<br>R$ 3,60",
+                "caption": "SUCO DE MARACUJÁ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,60",
                 "active": false
               },
               {
@@ -1419,7 +1419,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-limo-1200x1000-800x665.jpg",
                 "alt": "SUCO DE LIMÃO",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE LIMÃO<br>R$ 3,80",
+                "caption": "SUCO DE LIMÃO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,80",
                 "active": false
               },
               {
@@ -1431,7 +1431,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x1000-800x666.jpg",
                 "alt": "SUCO DE HORTELÃ",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE HORTELÃ<br>R$ 4,10",
+                "caption": "SUCO DE HORTELÃ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1443,7 +1443,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-morango-1200x1000-800x665.jpg",
                 "alt": "SUCO DEMORANGO",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MORANGO<br>R$ 4,30",
+                "caption": "SUCO DE MORANGO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,30",
                 "active": false
               },
               {
@@ -1455,7 +1455,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-uva-1200x1000-800x665.jpg",
                 "alt": "SUCO DE UVA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE UVA<br>R$ 4,10",
+                "caption": "SUCO DE UVA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               }
             ]
@@ -1483,7 +1483,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "quem_somos",
-        "order": 10
+        "order": 6
       },
       "components": [
         {
@@ -1615,7 +1615,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "localizacao",
-        "order": 9
+        "order": 5
       },
       "components": [
         {
@@ -1749,7 +1749,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "sugestoes_criticas",
-        "order": 8
+        "order": 4
       },
       "components": [
         {
@@ -1828,7 +1828,7 @@
       "settings": {
         "meta_descr": "",
         "title": "refrigerantes",
-        "order": 12
+        "order": 8
       },
       "components": [
         {
@@ -1942,7 +1942,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coca-cola-600x600.jpg",
                 "alt": "COCA-COLA",
                 "customStyle1": "display-7",
-                "caption": "COCA-COLA&nbsp;<br>R$ 2,70",
+                "caption": "COCA-COLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,70",
                 "active": false
               },
               {
@@ -1954,7 +1954,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pepsi-600x600.jpg",
                 "alt": "PEPSI",
                 "customStyle1": "display-7",
-                "caption": "PEPSI<br>R$ 2,50",
+                "caption": "PEPSI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,50",
                 "active": false
               },
               {
@@ -1966,7 +1966,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/fanta-600x600.jpg",
                 "alt": "FANTA",
                 "customStyle1": "display-7",
-                "caption": "FANTA&nbsp;<br>2,60",
+                "caption": "FANTA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$2,60",
                 "active": false
               },
               {
@@ -1978,7 +1978,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/guaran-600x600.jpg",
                 "alt": "GUARANÁ ANTARCTICA",
                 "customStyle1": "display-7",
-                "caption": "GUARANÁ ANTARCTICA<br>R$ 2,60<br>",
+                "caption": "GUARANÁ ANTARCTICA &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,60<br>",
                 "active": false
               },
               {
@@ -1990,7 +1990,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/kuat-1200x1000-800x665.jpg",
                 "alt": "GUARANÁ KUAT",
                 "customStyle1": "display-7",
-                "caption": "KUAT&nbsp;<br>2,60",
+                "caption": "KUAT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,60",
                 "active": false
               },
               {
@@ -2002,7 +2002,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/soda-limonada-1200x1000-800x665.jpg",
                 "alt": "SODA",
                 "customStyle1": "display-7",
-                "caption": "SOLA LIMONADA<br>2,60",
+                "caption": "SOLA LIMONADA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,60",
                 "active": false
               },
               {
@@ -2014,7 +2014,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/gua-mineral-gasosa-1200x1000-800x665.jpg",
                 "alt": "MINERAL SEM GÁS",
                 "customStyle1": "display-7",
-                "caption": "MINERAL COM GÁS<br>2,40<br>",
+                "caption": "MINERAL COM GÁS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,40<br>",
                 "active": false
               },
               {
@@ -2026,7 +2026,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/gua-mineral-sem-gs-1-600x600.jpg",
                 "alt": "MINERAL GASOSA",
                 "customStyle1": "display-7",
-                "caption": "MINERAL SEM GÁS<br>2,10",
+                "caption": "MINERAL SEM GÁS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,10",
                 "active": true
               }
             ]
@@ -2054,7 +2054,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "diversos",
-        "order": 6
+        "order": 3
       },
       "components": [
         {
@@ -2169,7 +2169,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/bombons-2-799x499.jpg",
                 "alt": "Bombons",
                 "customStyle1": "display-7",
-                "caption": "BOMBONS<br>R$ 1,00 Unidade",
+                "caption": "BOMBONS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,00",
                 "active": false
               },
               {
@@ -2181,7 +2181,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/caf-com-leite-799x500.jpg",
                 "alt": "Café com leite",
                 "customStyle1": "display-7",
-                "caption": "CAFÉ COM LEITE<br>R$ 1,90",
+                "caption": "CAFÉ COM LEITE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,90",
                 "active": false
               },
               {
@@ -2193,7 +2193,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/cafezinho-799x500.jpg",
                 "alt": "Cafezinho",
                 "customStyle1": "display-7",
-                "caption": "CAFEZINHO<br>R$ 1,30",
+                "caption": "CAFEZINHO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,30",
                 "active": false
               },
               {
@@ -2205,7 +2205,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/capuccino-799x500.jpg",
                 "alt": "Capuccino",
                 "customStyle1": "display-7",
-                "caption": "CAPUCCINO<br>R$ 2,40",
+                "caption": "CAPUCCINO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,40",
                 "active": false
               },
               {
@@ -2217,7 +2217,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/chiclets-1-800x500.jpg",
                 "alt": "Chiclets",
                 "customStyle1": "display-7",
-                "caption": "CHICLETS<br>R$ 0,90",
+                "caption": "CHICLETS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 0,90",
                 "active": false
               },
               {
@@ -2229,7 +2229,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/halls-1-799x500.jpg",
                 "alt": "Halls",
                 "customStyle1": "display-7",
-                "caption": "HALLS<br>R$ 1,70",
+                "caption": "HALLS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,70",
                 "active": false
               },
               {
@@ -2241,7 +2241,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pipoca-pop-corn-799x500.jpg",
                 "alt": "Pipoca Pop Corn",
                 "customStyle1": "display-7",
-                "caption": "PIPOCA POP CORN<br>R$ 3,10",
+                "caption": "PIPOCA POP CORN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,10",
                 "active": false
               },
               {
@@ -2253,7 +2253,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/toddynho-799x499.jpg",
                 "alt": "Toddynho",
                 "customStyle1": "display-7",
-                "caption": "TODDYNHO<br>R$ 1,80",
+                "caption": "TODDYNHO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,80",
                 "active": true
               }
             ]
@@ -2281,7 +2281,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "hamburgueres",
-        "order": 4
+        "order": 2
       },
       "components": [
         {
@@ -2431,6 +2431,233 @@
           "_anchor": "content8-85",
           "_isUserblock": true,
           "_cid": "qKXKiUhwa2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "promocoes",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning-outline\" href=\"page1.html#header2-v\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;CARDÁPIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-8i",
+          "_isUserblock": true,
+          "_cid": "qLJ3458Uur",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery1-8o",
+          "_isUserblock": true,
+          "_cid": "qLJ3ut8Bi1",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cafezinho-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cafezinho-1-800x500.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "CAFEZINHO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 0,60",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/capuccino-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/capuccino-1-800x500.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "CAPUCCINO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 0,70",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/coca-cola.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coca-cola-600x600.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "COCA-COLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,00",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-800x500.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "ENROLADO DE SALSICHA &nbsp; &nbsp; &nbsp;R$ 1,20",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/esfiha.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/esfiha-800x500.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "ESFIHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,10",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-800x500.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "ENROLADO DE SALSICHA &nbsp; &nbsp; &nbsp;R$ 1,30",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fanta.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fanta-600x600.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "FANTA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,25",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/suco-de-limo.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/suco-de-limo-800x666.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "SUCO DE LIMÃO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,10&nbsp;",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning-outline\" href=\"page1.html#header2-v\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;CARDÁPIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-8p",
+          "_isUserblock": true,
+          "_cid": "qLJ3whh4Jt",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
