@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hamburgueria",
-    "currentPage": "index.html",
+    "currentPage": "page11.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 314,
     "versionPublish": "4.6.5",
@@ -2613,12 +2613,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-800x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/suco-de-hortel.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/suco-de-hortel-800x666.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "ENROLADO DE SALSICHA &nbsp; &nbsp; &nbsp;R$ 1,30",
-                "active": false
+                "caption": "ENROLADO DE SALSICHA &nbsp; &nbsp; &nbsp;R$ 1,50",
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -2630,7 +2630,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "FANTA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,25",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
