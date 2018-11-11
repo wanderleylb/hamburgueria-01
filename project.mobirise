@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 330,
-    "versionPublish": "4.7.1",
+    "versionPublish": "4.8.7",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,8 @@
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/capturar2-117x146.png",
-    "noImageResize": "true"
+    "noImageResize": "true",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
